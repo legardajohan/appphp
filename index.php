@@ -76,32 +76,32 @@ $x = '11';
 $y = 11; 
 
 if ($x == $y) {
-    echo 'COMPARACION ==  X es igual a Y';
+    //echo 'COMPARACION ==  X es igual a Y';
 }
 
 // Igual ===, valor - tipo 9 === 9
 
 if ($x === $y) {
-    echo 'COMPARACION ===  X es igual a Y';
+    //echo 'COMPARACION ===  X es igual a Y';
 } else {
-    echo '<br> X no es igual a Y en valor y tipo';
+    //echo '<br> X no es igual a Y en valor y tipo';
 }
 
 
 // Diferencias !=, valor 
 
 if ($x != $y) {
-    echo '<br> X es diferente de Y';
+    //echo '<br> X es diferente de Y';
 } else {
-    echo '<br> X es igual en valor a Y';
+    //echo '<br> X es igual en valor a Y';
 }
 
 // Diferencias !==, valor - tipo
 
 if ($a !== $y) {
-    echo '<br> X es diferente en valor y tipo de Y';
+    //echo '<br> X es diferente en valor y tipo de Y';
 } else {
-    echo '<br> X es igual en valor y tipo a Y';
+    //echo '<br> X es igual en valor y tipo a Y';
 } 
 
 // <, >, <=, >=
@@ -109,13 +109,38 @@ if ($a !== $y) {
 $z = 10;
 
 if ($x > $z) {
-    echo '<br> X es mayor que Z';
+    //echo '<br> X es mayor que Z';
 }
 
 
 // Declarar 3 variables y comparar con IF si son iguales en valor (==) y en valor y tipo (===)
 // Realizar una comparacion de un valor menor que otro 
 // Ambos casos imprimir un resultado en pantalla 
+
+
+// Operadores Logicos 
+
+$k = '20';
+$j = 20; 
+$i = 30; 
+
+// Comparo que K es igual a J y que J es menor que I (AND)
+
+// if ($k === $j and $j < $i) {
+//     echo $k . ' es igual a ' . $j . ' y ' . $j . ' es menor que ' . $i;
+// } else {
+//     echo '¡La comparación es FALSA!';
+// }
+
+if ($k == $j or $j < $i) {
+    echo 'VERDADERO';
+} else {
+    echo 'FALSO'; 
+}
+
+// XOR 
+
+
 
 
 ?>
