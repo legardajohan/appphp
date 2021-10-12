@@ -133,14 +133,34 @@ $i = 30;
 // }
 
 if ($k == $j or $j < $i) {
-    echo 'VERDADERO';
+    //echo 'VERDADERO';
 } else {
-    echo 'FALSO'; 
+    //echo 'FALSO'; 
 }
 
 // XOR 
 
+// NOT 
 
+// if (!($k === $j)) {
+//     echo 'VERDADERO'; 
+// } else {
+//     echo 'FALSO'; 
+// }
+
+// CONDICIONAL IF 
+
+$userName = 'Johan';
+
+// if ($userName == 'Johan') {
+//     // TRUE: haga esto
+//     echo 'Ud es el administrador';
+// } elseif ($userName == 'Yami') {
+//     echo 'Ud es la supervisora';
+// } else {
+//     // FALSE: haga esto
+//     echo 'Ud no tiene un perfil'; 
+// }
 
 
 ?>
